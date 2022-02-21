@@ -1,7 +1,6 @@
 <%@ page import="com.example.lottery.controll.LotteryResult" %>
 <%@ page import="java.util.List" %>
-<%@ page import="java.util.Collections" %>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page contentType="text/html;charset=UTF-8" %>
 <html lang="pl">
 <head>
     <meta charset="UTF-8">
