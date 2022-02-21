@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Loteria</title>
+    <link rel="stylesheet" href="./css/main.css" type="text/css">
+</head>
+<body>
+    <main>
+        <fieldset>
+        <h1>Loteria</h1>
+        <h3>Wpisz 6 liczb i spróbuj swojego szczęścia!</h3>
+        <p>W każdym polu podaj unikalną liczbę z przedziału od 1 do 49</p>
+        <form action="check" method="post" >
+            <p>
+            <input type="number" id="n1" name="n1"  min="1" max="49" required>
+            <input type="number" id="n2" name="n2"  min="1" max="49" required>
+            <input type="number" id="n3" name="n3"  min="1" max="49" required>
+            <input type="number" id="n4" name="n4"  min="1" max="49" required>
+            <input type="number" id="n5" name="n5"  min="1" max="49" required>
+            <input type="number" id="n6" name="n6"  min="1" max="49" required>
+        </p>
+        <button>Wyślij kupon</button>
+        </form>
+        
+    </fieldset>
+    </main>
+   
+</body>
+</html>
