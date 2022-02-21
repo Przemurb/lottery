@@ -6,7 +6,6 @@ import java.util.List;
 public class Coupon {
     private final List<Integer> coupon;
     private final List<Integer> hitNumbers = new ArrayList<>();
-    private int hits = 0;
 
     public List<Integer> getCoupon() {
         return coupon;
@@ -16,15 +15,9 @@ public class Coupon {
         return hitNumbers;
     }
 
-    public int getHits() {
-        return hits;
-    }
-
-
     public void checkCoupon(Draw draw, List<Integer> myCoupon) {
         for (Integer number : myCoupon) {
             if (draw.getDrawnNumbers().contains(number)) {
-                hits++;
                 hitNumbers.add(number);
             }
         }
