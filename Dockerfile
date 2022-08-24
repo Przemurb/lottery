@@ -1,4 +1,4 @@
-FROM maven:3.8.6-openjdk-18-slim AS MAVEN_VERSION
+FROM maven:3.6.3-openjdk-17-slim AS MAVEN_VERSION
 COPY . /
 RUN maven package
 
