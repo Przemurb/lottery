@@ -34,7 +34,7 @@ public class Test {
         coupon.getCoupon().forEach(n -> System.out.print(n +", "));
         System.out.println();
         coupon.checkCoupon(d, coupon.getCoupon());
-        System.out.println("ilość trafień: " + coupon.getHits());
+        System.out.println("ilość trafień: " + coupon.getHitNumbers());
         for (Integer hitNumber : coupon.getHitNumbers()) {
             System.out.print(hitNumber +", ");
     }
